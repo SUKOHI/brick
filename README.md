@@ -21,7 +21,9 @@ Also
         ...Others...,  
         'Brick' =>'Sukohi\Brick\Facades\Brick',
     )
+And then  execute the next command to publish the view
 
+    php artisan view:publish sukohi/brick
 Usage
 ====
 
