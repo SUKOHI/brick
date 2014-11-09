@@ -25,6 +25,14 @@ Also
 Usage
 ====
 
+Brick basically use label texts as input data.  
+So, you need to prepare html-tags in your view like this.  
+(Match for="\*\*\*" and id="\*\*\*")
+
+&lt;label for="first_name"&gt;First Name&lt;/label&gt;  
+&lt;input id="first_name" type="text" value=""&gt;
+
+
 **Minimal way**
 
     {{ Brick::render() }}
